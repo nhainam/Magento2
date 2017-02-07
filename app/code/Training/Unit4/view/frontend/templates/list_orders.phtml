@@ -1,0 +1,14 @@
+<?php
+$listOrder = $block->getListOrders();
+var_dump($listOrder);
+$categoryID = $block->getRootCategoryID();
+var_dump($categoryID);
+$categories = $block->getListCategories($categoryID);
+foreach($categories as $category) {
+    var_dump($category->getCategoryIdUrl(),
+        $category->getParentId(),
+        $category->getId(),
+        $category->getPath(),
+        $category->getName());
+}
+?>
