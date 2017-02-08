@@ -5,20 +5,15 @@
     <acl>
         <resources>
             <resource id="Magento_Backend::admin">
-                <resource id="TrainingSimpleNews::simplenews" title="Simple News"
-                          sortOrder="100">
-                    <resource id="TrainingSimpleNews::add_news" title="Add News"
-                              sortOrder="1" />
-                    <resource id="TrainingSimpleNews::manage_news" title="Manage News"
-                              sortOrder="2" />
-                    <resource id="TrainingSimpleNews::configuration" title="Configurations"
-                              sortOrder="3" />
+                <resource id="Training_SimpleNews::simplenews" title="Simple News" sortOrder="100">
+                    <resource id="Training_SimpleNews::add_news" title="Add News" sortOrder="1" />
+                    <resource id="Training_SimpleNews::manage_news" title="Manage News" sortOrder="2" />
+                    <resource id="Training_SimpleNews::configuration" title="Configurations" sortOrder="3" />
                 </resource>
                 <resource id="Magento_Backend::stores">
                     <resource id="Magento_Backend::stores_settings">
                         <resource id="Magento_Config::config">
-                            <resource id="TrainingSimpleNews::system_config"
-                                      title="Simple News Section" />
+                            <resource id="Training_SimpleNews::system_config" title="Simple News Section" />
                         </resource>
                     </resource>
                 </resource>
